@@ -6,9 +6,9 @@ function App() {
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/'>App Placeholder</Route>
+          <Route path="/">App Placeholder</Route>
 
-          <Route path='/search'>Search</Route>
+          <Route path="/search">Search</Route>
         </Switch>
       </BrowserRouter>
     </div>
