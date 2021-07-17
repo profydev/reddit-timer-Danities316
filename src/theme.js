@@ -1,9 +1,7 @@
-const theme ={
-
+const theme = {
   color:{
     text: '#93918f',
 },
-
 font: {
     family: {
         default: '"Montserrat", sans-serif',
@@ -16,7 +14,5 @@ font: {
         default: 1.69,
     },
 },
-
 };
-
 export default theme;
