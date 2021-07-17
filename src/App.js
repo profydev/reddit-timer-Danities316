@@ -13,7 +13,6 @@ function App() {
         <Normalize />
         <GlobalStyle />
         <Header />
-        
         <Switch>
           <Route path="/search">Search</Route>
           <Route path="/">Home</Route>
