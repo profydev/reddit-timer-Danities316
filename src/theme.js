@@ -1,6 +1,6 @@
 const theme = {
   color: {
-    text: "#93918f",
+    text: '#93918f',
   },
   font: {
     family: {
@@ -8,7 +8,7 @@ const theme = {
       headline: '"Bitter", serif',
     },
     size: {
-      default: "16px",
+      default: '16px',
     },
     lineHeight: {
       default: 1.69,
