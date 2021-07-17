@@ -15,9 +15,9 @@ function App() {
         <Header />
         
         <Switch>
-          <Route path='/'>App Placeholder</Route>
-
-          <Route path='/search'>Search</Route>
+          <Route path="/search">Search</Route>
+          <Route path="/">Home</Route>
+          <Route>404 - Not Found</Route>
         </Switch>
       </Router>
     </ThemeProvider>
