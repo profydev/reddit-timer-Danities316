@@ -5,6 +5,6 @@ const Header = () => {
     <div>
       <header>Header Placeholder</header>
     </div>
-    );
+  );
 };
 export default Header;
