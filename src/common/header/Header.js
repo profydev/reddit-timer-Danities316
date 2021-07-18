@@ -10,7 +10,7 @@ function Header() {
       </Link>
       <nav>
         <S.Link to="/search/javascript">Search</S.Link>
-        <S.Link to="/#how-it-works">How it Works</S.Link>
+        <S.Link to="/#how-it-works">How it works</S.Link>
         <S.Link to="/#about">About</S.Link>
       </nav>
     </S.Container>
