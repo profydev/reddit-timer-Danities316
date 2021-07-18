@@ -8,14 +8,14 @@ import Header from '../common/header';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-        <Normalize />
-        <GlobalStyle />
-        <Header />
-        <Switch>
-          <Route path="/search">Search</Route>
-          <Route path="/">Home</Route>
-          <Route>404 - Not Found</Route>
-        </Switch>
+      <Normalize />
+      <GlobalStyle />
+      <Header />
+      <Switch>
+        <Route path="/search">Search</Route>
+        <Route path="/">Home</Route>
+        <Route>404 - Not Found</Route>
+      </Switch>
     </ThemeProvider>
   );
 }

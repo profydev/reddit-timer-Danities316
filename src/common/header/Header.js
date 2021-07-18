@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import * as S from './header.style';
 
 function Header() {
-   return (
-    <S.Container>
+  return (
+     <S.Container>
       <Link to="/">
         <S.Logo />
       </Link>
@@ -15,5 +15,5 @@ function Header() {
       </nav>
     </S.Container>
   );
-};
+}
 export default Header;

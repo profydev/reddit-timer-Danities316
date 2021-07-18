@@ -18,5 +18,5 @@ margin-top: 8px
 export const Link = styled(UnstyledLink)`
 margin-left: 26;
 text-decoration: none;
-color: ${(props) => props.theme.color.midDark };
+color: ${(props) => props.theme.color.midDark};
 `;
