@@ -4,11 +4,11 @@ import * as S from './header.style';
 
 function Header() {
   return (
-     <S.Container>
-      <Link to="/">
+    <S.Container>
+       <Link to="/">
         <S.Logo />
       </Link>
-      <nav>
+       <nav>
         <S.Link to="/search/javascript">Search</S.Link>
         <S.Link to="/#how-it-works">How it Works</S.Link>
         <S.Link to="/#about">Abou</S.Link>
