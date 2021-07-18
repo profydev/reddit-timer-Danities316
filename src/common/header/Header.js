@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import * as S from "./common/header.style";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import * as S from './header.style';
 
-const Header = () => {
-  return (
+function Header() {
+   return (
     <S.Container>
       <Link to="/">
         <S.Logo />

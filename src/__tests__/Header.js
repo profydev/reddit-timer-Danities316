@@ -2,7 +2,7 @@ import React from 'react';
 import { MemoryRouter, Route } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import App from '../app';
+import App from '../app/App';
 
 const setup = (initialPath = '/') => {
   // access history as described in the docs

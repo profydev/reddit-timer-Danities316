@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link as UnstyledLink } from 'react-router-dom';
-import { ReactComponent as UnstyledLogo} from './my_logo.svg';
+import { ReactComponent as UnstyledLogo } from './my_logo.svg';
 
 export const Container = styled.header`
 width: 100%;
@@ -18,5 +18,5 @@ margin-top: 8px
 export const Link = styled(UnstyledLink)`
 margin-left: 26;
 text-decoration: none;
-color: ${ (props) => props.theme.color.midDark};
+color: ${(props) => props.theme.color.midDark };
 `;
