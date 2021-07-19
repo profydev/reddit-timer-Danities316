@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Header = () => {
+function Header() {
   return (
     <div>
-  <header>Header Placeholder</header>
+      <header>Header Placeholder</header>
     </div>
-    )
-};
+    );
+}
 export default Header;
